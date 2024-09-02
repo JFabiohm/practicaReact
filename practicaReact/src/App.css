@@ -1,0 +1,32 @@
+*{
+  padding: 0%;
+  margin: 0%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+#nav {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: row;
+  height: 50px;
+  width: 1500px;
+  background-color: gray;
+  
+}
+#nav_react{ 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: right;
+  height: 50px;
+  width: 100px;
+  text-align: center;
+  text-decoration: none;
+  padding-right: 5%;
+  
+
+}
+#nav_react:hover{
+  border-bottom: 2px solid green;
+
+}
